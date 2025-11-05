@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "python-template-repo"
+authors = [{name = "Kieran Choi-Slattery", email = "kchoislattery@gatech.edu"}]
+description = "Module corresponding to my Python template repository."
+version = "1.0.1"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy",]
+
+[tool.flit.module]
+name = "python_template_repo"
+
+[project.urls]
+Home = "https://github.gatech.edu/kchoislattery3/python-template-repo"
+
+# Uncomment the next two lines if using anything from my personal PyPI and
+# replace the uv requirements generation with `uv pip compile requirements.in
+# --generate-hashes > requirements.txt`. 
+# [tool.uv] extra-index-url =
+# ["https://kchoislattery.github.io/PyPI/"]

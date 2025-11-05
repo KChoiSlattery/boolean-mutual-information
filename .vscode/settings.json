@@ -1,0 +1,11 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.terminal.activateEnvironment": true,
+  "notebook.formatOnSave.enabled": true,
+  "editor.rulers": [80],
+  "doctestbtn.doctestPath": "xdoctest",
+  "autoDocstring.docstringFormat": "google-notypes"
+}

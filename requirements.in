@@ -1,0 +1,33 @@
+# This repository's module
+-e .
+
+# Packaginging setup
+flit
+
+# General Notebook Dependencies. Note that dependencies of module itself should
+# be listed in setup.py, and so they will be install along with the module.
+jupyter
+ipykernel
+ipywidgets
+matplotlib
+
+# Specific Notebook Dependencies (these are all examples)
+numpy
+tqdm
+numba
+scipy
+cvxpy
+
+# Tests
+xdoctest
+pytest
+
+# Generating documentation
+pdoc
+
+# Cleaning notebooks
+nb-Clean
+pre-commit
+
+# Compiling requirements.txt
+pip-tools
