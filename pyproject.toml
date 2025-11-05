@@ -3,10 +3,10 @@ requires = ["flit_core >=3.11,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "python-template-repo"
+name = "boolean-mutual-information"
 authors = [{name = "Kieran Choi-Slattery", email = "kchoislattery@gatech.edu"}]
-description = "Module corresponding to my Python template repository."
-version = "1.0.1"
+description = "Probably the worst way to make $100."
+version = "0.0.1"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -16,7 +16,7 @@ dependencies = ["numpy",]
 name = "python_template_repo"
 
 [project.urls]
-Home = "https://github.gatech.edu/kchoislattery3/python-template-repo"
+Home = "https://github.com/KChoiSlattery/boolean-mutual-information"
 
 # Uncomment the next two lines if using anything from my personal PyPI and
 # replace the uv requirements generation with `uv pip compile requirements.in
