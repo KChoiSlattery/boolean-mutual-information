@@ -13,7 +13,7 @@ license-files = ["LICENSE"]
 dependencies = ["numpy",]
 
 [tool.flit.module]
-name = "python_template_repo"
+name = "boolean_mutual_information"
 
 [project.urls]
 Home = "https://github.com/KChoiSlattery/boolean-mutual-information"

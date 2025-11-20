@@ -17,6 +17,7 @@ tqdm
 numba
 scipy
 cvxpy
+seaborn
 
 # Tests
 xdoctest

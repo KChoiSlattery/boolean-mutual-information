@@ -1,28 +1,13 @@
 # boolean-mutual-information
 
-Template for initializing a pure Python project with several features.
-
-## Core features
-
-- Framework for local module that can be easily imported from another project
-- Virtual environment
-- Documentation generation
-- Unit testing
-- Extremely flat folder structure
-- Jupyter notebooks get automatically cleaned (metadata removed) on commit
-
-Everything below this line of the readme is intended to be included in the actual repository, with 'boolean-mutual-information' replaced with the actual name of the repository. In addition, 'boolean-mutual-information' should be changed to the new name in "pyproject.toml" and the name of the "python_template_repo" folder.
-
-## API Documentation
-
-Automatically-generated documentation is available at <https://github.gatech.edu/pages/kchoislattery3/boolean-mutual-information>.
+Probably the worst way to make $100.
 
 ## Usage
 
 ### Set up to run notebooks or development
 
 A Virtual Environment can be set up using either uv or venv. The venv module is
-built into most Python installations, so should require not additional
+built into most Python installations, so should not require additional
 installations, but uv is generally faster to install packages and has some other
 benefits.
 
@@ -47,7 +32,7 @@ benefits.
 ### Generating documentation
 
 - Delete the "docs" folder
-- In the repository folder, run `pdoc ./aerosol_inversion --math -o ./docs`
+- In the repository folder, run `pdoc ./boolean_mutual_information --math -o ./docs`
 - Read generated documentation by starting a live server starting from "docs/index.html"
 - When pushed, GitHub automatically updates the hosted documentation. This can be
   configured in "settings>Pages" on the GitHub website.
