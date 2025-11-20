@@ -2,7 +2,7 @@ import numpy as np
 import numba
 from matplotlib import pyplot as plt
 
-__all__ = ("binary_entropy", "numba_meshgrid")
+__all__ = ("binary_entropy",)
 
 
 def binary_entropy(p):
