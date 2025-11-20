@@ -11,13 +11,11 @@ ipykernel
 ipywidgets
 matplotlib
 
-# Specific Notebook Dependencies (these are all examples)
+# Specific Notebook Dependencies
 numpy
 tqdm
 numba
 scipy
-cvxpy
-seaborn
 
 # Tests
 xdoctest
@@ -30,5 +28,5 @@ pdoc
 nb-Clean
 pre-commit
 
-# Compiling requirements.txt
+# Compiling requirements.txt without uv
 pip-tools

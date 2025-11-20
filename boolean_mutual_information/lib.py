@@ -1,7 +1,8 @@
 import numpy as np
+import numba
 from matplotlib import pyplot as plt
 
-__all__ = ("binary_entropy", "make_A")
+__all__ = ("binary_entropy", "numba_meshgrid")
 
 
 def binary_entropy(p):
@@ -14,23 +15,3 @@ def binary_entropy(p):
         >>> plt.show()
     """
     return -p * np.log2(p) - (1 - p) * np.log2(1 - p)
-
-
-def make_A(alpha, n):
-    """Constructs
-
-    Args:
-        alpha: _description_
-        n: _description_
-
-    Returns:
-        _description_
-    """
-    k = 2**n  # Number of possible values of x or y
-    i, j = np.meshgrid(range(k), range(k))
-    C = np.bitwise_count(
-        np.bitwise_xor(i, j)
-    )  # Number of mismatches between y_i and x_j
-    A = alpha**C * (1 - alpha) ** (n - C)  # p(y|x)
-    A *= 1 / (k)  # p(x)
-    return A
